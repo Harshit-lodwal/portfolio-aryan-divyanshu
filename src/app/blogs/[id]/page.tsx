@@ -27,11 +27,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       publishedTime: blog.date,
       authors: blog.author ? [blog.author] : undefined,
       tags: blog.tags,
-    },
-    twitter: {
-      card: 'summary_large_image',
-      title: blog.title,
-      description: blog.description || blog.title,
     }
   }
 }

@@ -40,15 +40,13 @@ export default function NewHeroSection() {
           {/* Profile Header */}
           <Reveal delay={0.2}>
             <ProfileHeader
-              name="Yuvraj Sharma"
+              name="Obiwankenobi699"
               age="21"
               title="research & opensource"
-              profileImage="/pic8.jpeg"
+              profileImage="/pic8.jpg"
               socialLinks={{
-                twitter: "",
-                github: "https://github.com/codewyuu",
-                linkedin: "",
-                resume: "/cvportfolio.pdf",
+                github: "https://github.com/obiwankenobi699",
+                resume: "/cvportfolio1.pdf",
               }}
             />
           </Reveal>
@@ -158,11 +156,11 @@ export default function NewHeroSection() {
                   <h2 className="text-base font-[family-name:var(--font-hk-grotesk)] sm:text-xl leading-relaxed -tracking-[0.01em] mb-3">
                     <span className="opacity-20">GitHub Contributions</span>{" "}
                     <span className="text-emerald-400 animate-blink">●</span>{" "}
-                    <span className="text-emerald-400">@codewyuu</span>
+                    <span className="text-emerald-400">Obiwankenobi699</span>
                   </h2>
                   <div className="mb-3 sm:mb-4">
                     <ContributionsDisplay
-                      username="codewyuu"
+                      username="obiwankenobi699"
                       variant="compact"
                       className="w-full"
                     />

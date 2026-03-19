@@ -23,10 +23,10 @@ export default function Reachout({
   subtitle = "Find me on these platforms",
   socialLinks = {
     twitter: "",
-    github: "https://github.com/codewyuu",
+    github: "https://github.com/obiwankenobi699",
     linkedin: "",
     resume: "",
-    mail: "mailto:codewyuu@gmail.com"
+    mail: "mukulmishra795@gmail.com"
   }
 }: ReachoutProps) {
   return (
@@ -50,17 +50,17 @@ export default function Reachout({
                     <div className="flex items-center gap-3">
                       <Image
                         src="/pfp.jpg"
-                        alt="Yuvraj Sharma"
+                        alt="Obiwankenobi699"
                         width={56}
                         height={56}
                         className="h-14 w-14 rounded-full object-cover"
                       />
                       <div>
                         <p className="text-sm font-semibold text-neutral-900 dark:text-neutral-50">
-                          Yuvraj Sharma
+                          Obiwankenobi699
                         </p>
                         <p className="text-xs text-neutral-500 dark:text-neutral-400">
-                          @codewyuu
+                          Obiwankenobi699
                         </p>
                       </div>
                     </div>
@@ -102,42 +102,6 @@ export default function Reachout({
               </a>
             </Tooltip>
           )}
-          
-          {socialLinks.twitter && (
-            <Tooltip
-              content={
-                <Image
-                  width={1206}
-                  height={1220}
-                  src="/twitter.png"
-                  alt="Twitter"
-                  className="rounded-sm max-w-full h-auto"
-                  unoptimized
-                />
-              }
-            >
-              <a
-                className="touch-manipulation active:opacity-75"
-                href={socialLinks.twitter}
-                target="_blank"
-                rel="noopener noreferrer"
-                style={{
-                  WebkitTapHighlightColor: "transparent",
-                  WebkitTouchCallout: "none",
-                  WebkitUserSelect: "none",
-                  userSelect: "none",
-                }}
-              >
-                <NeumorphButton className="flex items-center gap-1.5 sm:gap-2 px-3 py-2 sm:px-3 sm:py-2">
-                  <FaXTwitter className="text-[20px] sm:text-[18px] text-neutral-800 dark:text-white/80 shrink-0" />
-                  <span className="hidden sm:inline text-sm font-medium text-neutral-800 dark:text-white/80">
-                    Twitter
-                  </span>
-                </NeumorphButton>
-              </a>
-            </Tooltip>
-          )}
-          
           {socialLinks.linkedin && (
             <Tooltip
               content={
@@ -174,7 +138,7 @@ export default function Reachout({
           )}
 
           {socialLinks.mail && (
-            <Tooltip content="codewyuu@gmail.com" padded>
+            <Tooltip content="mukulmishra795@gmail.com" padded>
               <a
                 className="touch-manipulation active:opacity-75"
                 href={socialLinks.mail}
@@ -226,7 +190,7 @@ export default function Reachout({
         <div className="mt-4 sm:mt-6 pt-3 sm:pt-4 border-t border-gray-200 dark:border-gray-800">
           <div className="flex flex-col items-center space-y-2 sm:flex-row sm:justify-between sm:items-center sm:space-y-0 text-center sm:text-left">
             <div className="text-sm sm:text-md dark:text-white/40 text-black/40">
-              © {new Date().getFullYear()} Yuvraj Sharma.
+              © {new Date().getFullYear()} Obiwankenobi699.
             </div>
             <VisitorCount className="text-sm sm:text-md dark:text-white/40 text-black/40" />
           </div>

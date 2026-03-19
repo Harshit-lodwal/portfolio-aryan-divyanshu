@@ -8,7 +8,7 @@ const allProjectsData: Project[] = [
     longDescription:
       "Hybrid AI with TensorFlow.js + Gemini 2.5 Flash detects threats across 10+ categories with 94.2% accuracy and sub‑500ms latency.\n\nScales to 5–10 concurrent camera feeds with real‑time alerts (email/SMS), analytics dashboard, and <4% false positive rate—removing the need for 24/7 human monitoring.",
     liveLink: "https://hawkwatch.example.com",
-    githubLink: "https://github.com/codewyuu/hawkwatch",
+    githubLink: "https://github.com/obiwankenobi699/hawkwatch",
     video: "",
     image: "/hawkwatch.gif",
     tweetUrl: "",
@@ -30,7 +30,7 @@ const allProjectsData: Project[] = [
     longDescription:
       "Processes 5.2 crore+ pending cases so lawyers and citizens can query Supreme, High, and District Court judgments.\n\nDelivers intelligent legal drafting and case summarization using Gemini API, reducing documentation time by ~70%; scaled to 50+ active users.",
     liveLink: "https://vakeel-ai.example.com",
-    githubLink: "https://github.com/codewyuu/vakeel-ai",
+    githubLink: "https://github.com/obiwankenobi699/vakeel-ai",
     video: "",
     image: "/vakeelai.png",
     tweetUrl: "",
@@ -52,7 +52,7 @@ const allProjectsData: Project[] = [
     longDescription:
       "Delivers 40% faster translations with <300ms processing time using a modular architecture and auto‑detection across 10+ languages.\n\nResponsive UI renders previews in 0.2s with customizable settings (hover delays, keyboard shortcuts) to streamline workflows.",
     liveLink: "https://curslate.example.com",
-    githubLink: "https://github.com/codewyuu/curslate",
+    githubLink: "https://github.com/obiwankenobi699/curslate",
     video: "",
     image: "",
     tweetUrl: "",

@@ -74,7 +74,7 @@ function formatDate(dateString: string): string {
 }
 
 
-export async function fetchUserPullRequests(username: string, limit: number = 50): Promise<ProcessedContribution[]> {
+export async function fetchUserPullRequests(username:String, limit: number = 50): Promise<ProcessedContribution[]> {
   const token = process.env.GITHUB_TOKEN || process.env.NEXT_PUBLIC_GITHUB_TOKEN
   
   if (!token) {

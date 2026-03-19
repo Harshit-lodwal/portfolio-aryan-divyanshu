@@ -25,7 +25,7 @@ const HomePage = () => {
   const [showLanding, setShowLanding] = useState(false)
   const [isLandingClosing, setIsLandingClosing] = useState(false)
 
-  usePageTitle('Yuvraj Sharma')
+  usePageTitle('Obiwankenobi699')
 
   useEffect(() => {
     if (hasShownHomepageLoader) {
@@ -101,7 +101,7 @@ const HomePage = () => {
 }
 
 const BlogsPage = () => {
-  usePageTitle('Blog | Yuvraj Sharma')
+  usePageTitle('Blog | Obiwankenobi699')
   return <BlogsListClient blogs={blogs} />
 }
 
@@ -116,14 +116,14 @@ const BlogPostPage = () => {
 }
 
 const ProjectsPage = () => {
-  usePageTitle('Projects | Yuvraj Sharma')
+  usePageTitle('Projects | Obiwankenobi699')
   return <ProjectsListClient projects={projects} />
 }
 
 const ProjectPage = () => {
   const { id } = useParams()
   const project = id ? getProjectById(id) : undefined
-  usePageTitle(project ? `${project.title} | Yuvraj Sharma` : 'Project Not Found')
+  usePageTitle(project ? `${project.title} | Obiwankenobi699` : 'Project Not Found')
   if (!project) {
     return <Navigate to="/projects" replace />
   }

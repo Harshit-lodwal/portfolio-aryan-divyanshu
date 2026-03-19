@@ -22,18 +22,18 @@ const instrumentSerif = Instrument_Serif({
 
 export const metadata: Metadata = {
   metadataBase: new URL('http://localhost:3000'),
-  title: 'Yuvraj Sharma',
+  title: 'Obiwankenobi699',
   description: 'AI engineer and full‑stack developer. I build products end‑to‑end.',
   openGraph: {
     url: 'http://localhost:3000/',
-    siteName: 'Yuvraj Sharma Portfolio',
+    siteName: 'Obiwankenobi699 Portfolio',
     locale: 'en_US',
     type: 'website',
     images: [{
       url: '/open-graph.png',
       width: 1200,
       height: 630,
-      alt: 'Yuvraj Sharma - Portfolio'
+      alt: 'Obiwankenobi699 - Portfolio'
     }],
   },
 };

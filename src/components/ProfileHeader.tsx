@@ -29,13 +29,12 @@ interface ProfileHeaderProps {
 }
 
 export default function ProfileHeader({
-  name = "Yuvraj Sharma",
+  name = "Obiwankenobi699",
   age = "",
   title = "research & opensource • full‑stack developer",
   profileImage = "/pfp.jpg",
   socialLinks = {
-    twitter: "",
-    github: "https://github.com/codewyuu",
+    github: "https://github.com/obiwankenobi699",
     linkedin: "",
     resume: "/cvportfolio.pdf",
   }
@@ -119,20 +118,8 @@ export default function ProfileHeader({
             >
               <FileText className="w-[18px] h-[18px] relative top-0" />
             </button>
-            <a href={socialLinks.twitter || '#'} target={socialLinks.twitter ? "_blank" : undefined} aria-label="X (Twitter)" className="text-neutral-500 hover:text-neutral-300 dark:text-neutral-400 dark:hover:text-neutral-200 transition-colors">
-              <FaXTwitter className="w-[18px] h-[18px]" />
-            </a>
-            <a href={socialLinks.linkedin || '#'} target={socialLinks.linkedin ? "_blank" : undefined} aria-label="LinkedIn" className="text-neutral-500 hover:text-neutral-300 dark:text-neutral-400 dark:hover:text-neutral-200 transition-colors">
-              <FaLinkedin className="w-[18px] h-[18px]" />
-            </a>
             <a href={socialLinks.github || '#'} target={socialLinks.github ? "_blank" : undefined} aria-label="GitHub" className="text-neutral-500 hover:text-neutral-300 dark:text-neutral-400 dark:hover:text-neutral-200 transition-colors">
               <FaGithub className="w-[18px] h-[18px]" />
-            </a>
-            <a href="#" aria-label="Medium" className="text-neutral-500 hover:text-neutral-300 dark:text-neutral-400 dark:hover:text-neutral-200 transition-colors">
-              <FaMedium className="w-[18px] h-[18px]" />
-            </a>
-            <a href="mailto:codewyuu@gmail.com" aria-label="Email" className="text-neutral-500 hover:text-neutral-300 dark:text-neutral-400 dark:hover:text-neutral-200 transition-colors">
-              <IoMdMail className="w-[18px] h-[18px]" />
             </a>
           </div>
         </div>
@@ -159,9 +146,7 @@ export default function ProfileHeader({
               />
             }
           >
-            <a href={socialLinks.twitter || '#'} target={socialLinks.twitter ? "_blank" : undefined} aria-label="X (Twitter)" className="text-neutral-500 hover:text-neutral-300 dark:text-neutral-400 dark:hover:text-neutral-200 transition-colors">
-              <FaXTwitter className="w-[18px] h-[18px]" />
-            </a>
+            
           </Tooltip>
           <Tooltip
             content={
@@ -175,9 +160,7 @@ export default function ProfileHeader({
               />
             }
           >
-            <a href={socialLinks.linkedin || '#'} target={socialLinks.linkedin ? "_blank" : undefined} aria-label="LinkedIn" className="text-neutral-500 hover:text-neutral-300 dark:text-neutral-400 dark:hover:text-neutral-200 transition-colors">
-              <FaLinkedin className="w-[18px] h-[18px]" />
-            </a>
+            
           </Tooltip>
           <Tooltip
             content={
@@ -186,17 +169,17 @@ export default function ProfileHeader({
                   <div className="flex items-center gap-3">
                     <Image
                       src="/pic8.jpeg"
-                      alt="Yuvraj Sharma"
+                      alt="Obiwankenobi699"
                       width={56}
                       height={56}
                       className="h-14 w-14 rounded-full object-cover"
                     />
                     <div>
                       <p className="text-sm font-semibold text-neutral-900 dark:text-neutral-50">
-                        Yuvraj Sharma
+                        Obiwankenobi699
                       </p>
                       <p className="text-xs text-neutral-500 dark:text-neutral-400">
-                        @codewyuu
+                        Obiwankenobi699
                       </p>
                     </div>
                   </div>
@@ -209,16 +192,6 @@ export default function ProfileHeader({
           >
             <a href={socialLinks.github || '#'} target={socialLinks.github ? "_blank" : undefined} aria-label="GitHub" className="text-neutral-500 hover:text-neutral-300 dark:text-neutral-400 dark:hover:text-neutral-200 transition-colors">
               <FaGithub className="w-[18px] h-[18px]" />
-            </a>
-          </Tooltip>
-          <Tooltip content="Medium" padded>
-            <a href="#" aria-label="Medium" className="text-neutral-500 hover:text-neutral-300 dark:text-neutral-400 dark:hover:text-neutral-200 transition-colors">
-              <FaMedium className="w-[18px] h-[18px]" />
-            </a>
-          </Tooltip>
-          <Tooltip content="codewyuu@gmail.com" padded>
-            <a href="mailto:codewyuu@gmail.com" aria-label="Email" className="text-neutral-500 hover:text-neutral-300 dark:text-neutral-400 dark:hover:text-neutral-200 transition-colors">
-              <IoMdMail className="w-[18px] h-[18px]" />
             </a>
           </Tooltip>
         </div>
