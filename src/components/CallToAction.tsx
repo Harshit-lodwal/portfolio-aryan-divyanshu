@@ -51,7 +51,7 @@ export default function CallToAction({
             <button
               type="button"
               onClick={() => {
-                window.open(linkUrl, '_blank', 'noopener,noreferrer')
+                window.open('_blank', 'noopener,noreferrer')
               }}
               className="group inline-flex touch-manipulation active:opacity-75"
               style={{ 
