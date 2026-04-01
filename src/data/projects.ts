@@ -3,7 +3,7 @@ import { Project } from '@/types/project'
 const allProjectsData: Project[] = [
   {
     id: "hawkwatch",
-    title: "HawkWatch",
+    title: "Nazar-AI",
     description: "Intelligent surveillance platform with hybrid AI and real‑time analytics.",
     longDescription:
       "Hybrid AI with TensorFlow.js + Gemini 2.5 Flash detects threats across 10+ categories with 94.2% accuracy and sub‑500ms latency.\n\nScales to 5–10 concurrent camera feeds with real‑time alerts (email/SMS), analytics dashboard, and <4% false positive rate—removing the need for 24/7 human monitoring.",
