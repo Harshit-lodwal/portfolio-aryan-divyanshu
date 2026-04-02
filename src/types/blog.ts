@@ -9,6 +9,7 @@ export interface BlogPost {
   externalUrl?: string
   image?: string
   tags?: string[]
+  sectionImages?: string[]
 
-  sectionImages?: string[]   // ✅ important
+  description?: string   // ✅ ADD THIS
 }
