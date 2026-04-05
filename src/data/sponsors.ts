@@ -19,7 +19,7 @@ export const sponsors: Sponsor[] = [
     twitter: 'davidhdev',
     amountUsd: 5
   },
-  
+
   {
     id: 'sponsor-3',
     name: 'Suhail Roushan',
@@ -39,4 +39,3 @@ export const sponsors: Sponsor[] = [
     amountUsd: 2
   },
 ];
-

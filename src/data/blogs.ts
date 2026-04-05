@@ -30,7 +30,7 @@ export const blogs: BlogPost[] = [
     title: 'Building While Learning: My Journey in AI and Development',
     readTime: '6 min read',
     externalUrl: '',
-    author: 'Obiwankenobi699',
+    author: 'TestPortfolio',
     date: '2026-03-22',
     image: '/mag4.jpg',
     // ↓ Add section images here — one path per ### heading, in order
@@ -146,7 +146,7 @@ AI and ML. Full-stack systems. Infrastructure. Not parallel tracks — one syste
     title: 'Two National Wins. One Team. What We Actually Did.',
     readTime: '7 min read',
     externalUrl: '',
-    author: 'Obiwankenobi699',
+    author: 'TestPortfolio',
     date: '2026-03-20',
     image: '/win.jpg',
     sectionImages: [
@@ -250,7 +250,7 @@ Not a secret. Just consistent work.
     title: 'NAZAR-AI: How We Built a Surveillance System That Actually Thinks',
     readTime: '8 min read',
     externalUrl: '',
-    author: 'Obiwankenobi699',
+    author: 'TestPortfolio',
     date: '2026-01-15',
     image: '/mag1.jpg',
     sectionImages: [
@@ -312,7 +312,7 @@ HawkWatch is where I stopped thinking of AI as an application layer and started 
     title: 'Inside Vakeel AI: Building Legal Search Across 5.2 Crore Cases',
     readTime: '4 min read',
     externalUrl: '',
-    author: 'Obiwankenobi699',
+    author: 'TestPortfolio',
     date: '2025-12-10',
     image: '/mag3.jpg',
     sectionImages: [
@@ -367,7 +367,7 @@ Vakeel AI is where I stopped treating retrieval as an implementation detail and 
     title: 'V-JEPA 2 and Moondream: What Happens When You Stop Reconstructing Pixels',
     readTime: '3 min read',
     externalUrl: '',
-    author: 'Obiwankenobi699',
+    author: 'TestPortfolio',
     date: '2026-03-20',
     image: '/jepa.png',
     sectionImages: [

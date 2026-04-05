@@ -7,7 +7,7 @@ export default async function handler(req: any, res: any) {
   }
 
   try {
-    const owner = typeof req.query?.owner === 'string' ? req.query.owner : 'KartikLabhshetwar'
+    const owner = typeof req.query?.owner === 'string' ? req.query.owner : 'AryanDivyanshu'
     const repo = typeof req.query?.repo === 'string' ? req.query.repo : 'portfolio'
     const stars = await fetchRepositoryStars(owner, repo)
     res.status(200).json({ success: true, stars })

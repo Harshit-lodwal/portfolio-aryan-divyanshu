@@ -41,19 +41,19 @@ export default function NewHeroSection() {
           {/* Profile Header */}
           <Reveal delay={0.2}>
             <ProfileHeader
-              name="Obiwankenobi699"
-              age="21"
-              title="research & opensource"
+              name="Pastex"
+              //age="age 18 & 21"
+              title="research & open source"
               profileImage="/pic8.jpg"
               socialLinks={{
-                github: "https://github.com/obiwankenobi699",
-                resume: "/cvportfolio1.pdf",
+                github: 'https://github.com/harshit-lodwal',
+                resume: 'https://copy-of-teal-blue-and-black-clean-professional-a4-resume-2-1-pd.tiiny.site',
               }}
             />
           </Reveal>
 
-          {/* Content Prose */}
-          <div className="prose dark:prose-invert max-w-none">
+            {/* Content Prose */}
+            <div className="prose dark:prose-invert max-w-none">
             <div className="text-base">
               {/* Current Role Section */}
               <Reveal delay={0.1}>
@@ -74,7 +74,7 @@ export default function NewHeroSection() {
               <Reveal delay={0.1}>
                 <ContentSection className="pb-2 sm:pb-3 pt-2 sm:pt-3">
                   <ContentParagraph className="text-base sm:text-lg mb-0 text-justify">
-                    Builder, specializing in full-stack architecture and AI integration. Driven by a love for clean code, minimalist design, and building the next generation of intelligent web applications.
+                 I Aryan Goswami & Divyanshu Singh, students of NIT Hamirpur, currently pursuing B.TECH in CSE, passionate about computer software and how things work, deeply interested in the domain of AI-ML and game development, especially finding a practical and feasible solution for real-world problems. In the upcoming future, I am looking to utilize my skills in the field of cyber security and devops.
                   </ContentParagraph>
                 </ContentSection>
               </Reveal>
@@ -157,11 +157,11 @@ export default function NewHeroSection() {
                   <h2 className="text-base font-[family-name:var(--font-hk-grotesk)] sm:text-xl leading-relaxed -tracking-[0.01em] mb-3">
                     <span className="opacity-20">GitHub Contributions</span>{" "}
                     <span className="text-emerald-400 animate-blink">●</span>{" "}
-                    <span className="text-emerald-400">Obiwankenobi699</span>
+                    <span className="text-emerald-400">TestPortfolio</span>
                   </h2>
                   <div className="mb-3 sm:mb-4">
                     <ContributionsDisplay
-                      username="obiwankenobi699"
+                      username="TestPortfolio"
                       variant="compact"
                       className="w-full"
                     />

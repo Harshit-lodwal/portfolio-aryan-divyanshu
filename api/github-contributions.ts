@@ -7,7 +7,7 @@ export default async function handler(req: any, res: any) {
   }
 
   try {
-    const username = typeof req.query?.username === 'string' ? req.query.username : 'KartikLabhshetwar'
+    const username = typeof req.query?.username === 'string' ? req.query.username : 'AryanDivyanshu'
     const limitRaw = typeof req.query?.limit === 'string' ? req.query.limit : '50'
     const parsedLimit = Number.parseInt(limitRaw, 10)
     const limit = Number.isNaN(parsedLimit) ? 50 : parsedLimit
