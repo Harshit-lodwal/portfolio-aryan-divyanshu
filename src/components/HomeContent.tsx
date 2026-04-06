@@ -74,7 +74,7 @@ export default function NewHeroSection() {
               <Reveal delay={0.1}>
                 <ContentSection className="pb-2 sm:pb-3 pt-2 sm:pt-3">
                   <ContentParagraph className="text-base sm:text-lg mb-0 text-justify">
-                 I Aryan Goswami & Divyanshu Singh, students of NIT Hamirpur, currently pursuing B.TECH in CSE, passionate about computer software and how things work, deeply interested in the domain of AI-ML and game development, especially finding a practical and feasible solution for real-world problems. In the upcoming future, I am looking to utilize my skills in the field of cyber security and devops.
+                 I Aryan Goswami, Harshit Kumar & Divyanshu Singh, students of NIT Hamirpur, currently pursuing B.TECH in CSE, passionate about computer software and how things work, deeply interested in the domain of AI-ML and game development, especially finding a practical and feasible solution for real-world problems. In the upcoming future, I am looking to utilize my skills in the field of cyber security and devops.
                   </ContentParagraph>
                 </ContentSection>
               </Reveal>
