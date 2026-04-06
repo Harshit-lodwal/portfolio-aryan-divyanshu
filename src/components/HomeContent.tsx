@@ -47,7 +47,7 @@ export default function NewHeroSection() {
               profileImage="/pic8.jpg"
               socialLinks={{
                 github: 'https://github.com/harshit-lodwal',
-                resume: 'https://copy-of-teal-blue-and-black-clean-professional-a4-resume-2-1-pd.tiiny.site',
+                resume: 'https://ilovepdf-merged-7ea0b7.tiiny.site',
               }}
             />
           </Reveal>
